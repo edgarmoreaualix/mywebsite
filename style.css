@@ -65,7 +65,7 @@ main {
 .ginger-title {
   font-size: 64px;
   color: #1500FF;
-  margin-top: 40px;
+  margin-top: 16px;
   margin-bottom: 60px;
 }
 
@@ -90,7 +90,7 @@ main {
 .minds-title {
   font-size: 56px;
   color: white;
-  margin-top: 50px;
+  margin-top: 16px;
   margin-bottom: 60px;
 }
 
@@ -121,7 +121,7 @@ html, body {
   font-size: 56px;
   color: white;
   margin-top: 16px;
-  margin-bottom: 32px;
+  margin-bottom: 60px;
 }
 
 .bangy-image {
