@@ -7,9 +7,16 @@ body {
 }
 
 main {
+  height: 100vh;
   max-width: 800px;
   margin: 0 auto;
-  padding-top: 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 32px;
+  box-sizing: border-box;
 }
 
 /* Description placeholder */
@@ -92,4 +99,9 @@ main {
   max-width: 320px;
   width: 75%;
   margin: 0 auto;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
 }
