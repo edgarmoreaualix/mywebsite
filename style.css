@@ -124,9 +124,9 @@ html, body {
   margin-bottom: 32px;
 }
 
-.bangy-image {
-  max-height: 65vh;
-  width: auto;
+.bangys-image {
   display: block;
+  max-width: 320px;
+  width: 75%;
   margin: 0 auto;
 }
