@@ -10,6 +10,28 @@
   <main>
     <h1 class="project-title bangy-title">Bangy’s Hit Wonder</h1>
 
+      <p style="font-size: 14px; opacity: 0.7;">
+  Click and Listen
+  </p>
+    <audio
+  id="bangy-audio"
+  src="/projects/audios/BangyBangerTender.mp3"
+  autoplay
+  loop
+  muted> 
+    </audio>
+    <script>
+  const audio = document.getElementById("bangy-audio");
+
+  const enableSound = () => {
+    audio.muted = false;
+    audio.play();
+    document.removeEventListener("click", enableSound);
+  };
+
+  document.addEventListener("click", enableSound);
+</script>
+
     <img
       src="/projects/images/Bangys-Hit-Wonder.png"
       alt="Bangy’s Hit Wonder central artwork"
