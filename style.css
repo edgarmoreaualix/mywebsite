@@ -36,3 +36,10 @@ main {
   margin-top: 40px;
   display: inline-block;
 }
+
+.project-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 40px auto;
+}
