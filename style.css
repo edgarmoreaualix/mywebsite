@@ -20,6 +20,7 @@ main {
 
 /* Project links */
 .projects a {
+  font-size: 24px;
   display: block;
   margin: 10px 0;
   color: inherit;
