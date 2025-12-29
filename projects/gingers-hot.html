@@ -9,13 +9,34 @@
 <body class="ginger-page">
   <main>
     <h1 class="project-title ginger-title">Ginger’s Hot !</h1>
+  <p style="font-size: 14px; opacity: 0.7;">
+  Click and Listen
+  </p>
+    <audio
+  id="bangy-audio"
+  src="/projects/audios/BangyBangerTender.mp3"
+  autoplay
+  loop
+  muted> 
+    </audio>
+    <script>
+  const audio = document.getElementById("bangy-audio");
+
+  const enableSound = () => {
+    audio.muted = false;
+    audio.play();
+    document.removeEventListener("click", enableSound);
+  };
+
+  document.addEventListener("click", enableSound);
+</script>
 
     <img
       src="/projects/images/Gingers-Hot-Bottles.png"
       alt="Ginger’s Hot beverage bottle"
       class="ginger-image"
     />
-    
+
   </main>
 </body>
 </html>
