@@ -43,3 +43,28 @@ main {
   height: auto;
   margin: 40px auto;
 }
+
+/* Ginger's Hot specific layout */
+
+.ginger-page {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #EBB300 50%,
+    #1500FF 50%
+  );
+}
+
+.ginger-title {
+  font-size: 64px;
+  color: #1500FF;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.ginger-image {
+  display: block;
+  max-width: 360px;
+  width: 80%;
+  margin: 0 auto;
+}
