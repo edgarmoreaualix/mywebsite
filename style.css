@@ -126,7 +126,7 @@ html, body {
 
 .bangys-image {
   display: block;
-  max-width: 320px;
-  width: 75%;
+  max-width: auto;
+  width: auto;
   margin: 0 auto;
 }
