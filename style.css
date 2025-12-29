@@ -68,3 +68,28 @@ main {
   width: 80%;
   margin: 0 auto;
 }
+
+/* Mind's Full specific layout */
+
+.minds-page {
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    #1500FF 50%,
+    #FF0000 50%
+  );
+}
+
+.minds-title {
+  font-size: 56px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.minds-image {
+  display: block;
+  max-width: 320px;
+  width: 75%;
+  margin: 0 auto;
+}
