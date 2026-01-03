@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ginger's Hot</title>
+
+  <style>
+    :root {
+      --ginger-gold: #E2C34A;
+      --purple-main: #4A3380;
+      --purple-dark: #2B1B44;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-style: italic;
+      background: var(--ginger-gold);
+      color: var(--purple-dark);
+      line-height: 1.3;
+    }
+
+    header {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: var(--ginger-gold);
+    }
+
+    header h1 {
+      font-size: clamp(3rem, 8vw, 6rem);
+      color: var(--purple-main);
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.4rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .band {
+      background: var(--purple-main);
+      color: var(--white);
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .band h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .band p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .ingredients {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .ingredients h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: var(--purple-main);
+    }
+
+    .ingredients ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .ingredients li {
+      background: var(--purple-dark);
+      color: var(--white);
+      padding: 1.5rem;
+      font-size: 1.2rem;
+    }
+
+    .cta {
+      background: var(--purple-main);
+      color: var(--white);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .cta h2 {
+      font-size: 2.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta p {
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      background: var(--ginger-gold);
+      color: var(--purple-dark);
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    footer {
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Ginger's Hot</h1>
+    <p>
+      A functional ginger shot designed for heat, sweat, and intensity.
+    </p>
+  </header>
+
+  <section class="band">
+    <h2>Built for Saunas & Clubs</h2>
+    <p>
+      Ginger's Hot is not a soft wellness drink.
+      It’s a ritual. A shock. A reset.
+    </p>
+  </section>
+
+  <section class="ingredients">
+    <h2>What’s Inside</h2>
+    <ul>
+      <li>Fresh Ginger</li>
+      <li>Lemon</li>
+      <li>Natural Heat</li>
+      <li>No Bullshit</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <h2>Serve It Ice Cold</h2>
+    <p>
+      Shots at the bar. Bottles in the sauna.
+    </p>
+    <a href="mailto:contact@gingershot.com">Get in touch</a>
+  </section>
+
+  <footer>
+    © Ginger's Hot
+  </footer>
+
+</body>
+</html>
